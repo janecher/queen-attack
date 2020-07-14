@@ -19,6 +19,10 @@ namespace QueenAttack.Models {
       {
         return true;
       } 
+      else if (Math.Abs(this.CoordinateX - xChessPiece) == Math.Abs(this.CoordinateY - yChessPiece))
+      {
+        return true;
+      }
       else 
       {
         return false;
